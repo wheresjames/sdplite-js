@@ -1,0 +1,26 @@
+{
+  "name": "%NAME%",
+  "version": "%VERSION%",
+  "description": "%DESCRIPTION%",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "%REPO%"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+    "logging",
+    "color",
+    "graph"
+  ],
+  "author": "%AUTHOR%",
+  "license": "%LICENSE%",
+  "bugs": {
+    "url": "%URL%/issues"
+  },
+  "homepage": "%URL%"
+}

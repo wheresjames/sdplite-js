@@ -1,0 +1,9 @@
+name            sdplite
+version         0.1.0
+description     Simple SDP Parser
+company         wheresjames
+author          Robert Umbehant
+email           sdplite@wheresjames.com
+url             https://github.com/wheresjames/sdplite-js
+repo            git+ssh://git@github.com/wheresjames/sdplite-js.git
+license         MIT
