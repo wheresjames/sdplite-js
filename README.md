@@ -99,9 +99,17 @@ Simple SDP parser.
 
     // Parse the SDP
     let sdp = sdplite.parseSDP(strSdp);
+    console.log(sdp);
 
     // Rebuild the SDP
     let strReSdp = sdplite.makeSDP(sdp);
+    console.log(strReSdp);
+
+    // Compare the original and recreated SDP's
+    let e = sdplite.compareSDP(strSdp, strReSdp);
+    if (e !== true)
+        throw e;
+
 
 ```
 
